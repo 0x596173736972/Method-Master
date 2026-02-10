@@ -1,73 +1,66 @@
-# Welcome to your Lovable project
+# MethodMaster
 
-## Project info
+Turn your course materials into exam-winning methodologies. The AI analyzes, predicts, and coaches you to **master** your exams.
 
-**URL**: https://lovable.dev/projects/a5e0eef2-eaec-459a-a045-4764ddcec754
+***
 
-## How can I edit this code?
+## 🚀 Vision
 
-There are several ways of editing your application.
+MethodMaster helps students who “know the course but fail the exam” by focusing on **method**, not just content.
+The app targets prioritization, solution strategy, structured answers, and exam-trap handling so that your reasoning becomes systematic and reliable.
 
-**Use Lovable**
+***
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/a5e0eef2-eaec-459a-a045-4764ddcec754) and start prompting.
+## 🎯 Problem
 
-Changes made via Lovable will be committed automatically to this repo.
+- Ineffective revision: passive rereading with no clear hierarchy between concepts, skills, and exercise types.
+- Fuzzy methodology: you know formulas but not how to chain them into a robust reasoning pipeline.
+- Unpredictable exams: hard to anticipate which skills will actually appear.
+***
 
-**Use your preferred IDE**
+## 💡 Solution
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+MethodMaster converts your course materials and past papers into a full system of methodologies, flowcharts, and personalized exam predictions.
+The app gives you a coaching environment (text + voice) that trains your method instead of just memorization.
+***
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## ✨ Core Features
 
-Follow these steps:
+- **AI course analysis**: automatically extracts key methodological skills from your PDFs, DOCX, PPTX, or images.
+- Method flowcharts: step-by-step solution organigrams for each skill, including common traps and tips.
+- Predictive FocusMap: analyzes past exams to estimate the probability of each skill appearing in the next test. [
+- Method-Help chatbot: an AI tutor trained on your courses that guides your reasoning without directly giving the final answer. [
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+- Interactive training: practice each skill with generated exercises and real-time AI coaching on your responses.
+- Voice coaching: explain your reasoning out loud and get instant feedback on structure and rigor.
+- Statement analyzer: upload a photo or PDF of an exercise to detect which skills are required before you start solving. 
+- Smart solutions (Lazy Mode): “ideal” solution scripts aligned with your methodology, including traps, tips, and intuitive explanations. 
+- Cognitive profile: tracks strengths, weaknesses, learning style, and generates targeted recommendations.
+***
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+## 🧠 Lazy Mode – Smart Solutions
 
-# Step 3: Install the necessary dependencies.
-npm i
+For any given exercise (photo or PDF), MethodMaster generates a model solution structured according to your course methodology.
+- Highlights exercise-specific traps.
+- Explains shortcuts and clever tricks.
+- Details the underlying mathematical intuition behind steps.
+- Saves your solution history for later revision.
+***
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+## 🏗️ High-level Architecture
 
-**Edit a file directly in GitHub**
+- Frontend: modern SPA web app (e.g. React / Next.js / Vue) for the student dashboard, training flows, and uploads.
+- Backend: Lovable Cloud.
+- AI layer: LLM integration (Gemini) for course analysis, flowchart generation, FocusMap predictions, chatbot tutoring, and voice-feedback processing.
+- Storage: database for users, course content, extracted skills, training sessions, and cognitive profiles.
+- Auth: secure signup/login and session management.
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+***
 
-**Use GitHub Codespaces**
+## 📚 Roadmap Ideas
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/a5e0eef2-eaec-459a-a045-4764ddcec754) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+- Deeper analytics on progress per skill and per exercise pattern.
+- Full “mock exam” mode with corrections fully driven by the learned methodologies. 
+- Mobile/PWA companion for quick revision sessions.
+- Community or cohort sharing of methodologies and FocusMaps by subject or program.
+**
